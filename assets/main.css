@@ -1,0 +1,99 @@
+.list{
+    width: 60%;
+    height: auto;
+}
+
+.list_books{
+    width: 80%;
+    height: auto;
+}
+
+.list_head, .list_head_books{
+    width: 100%;
+    display: block;
+    height: 4vh;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
+    background: #f5f6f6; /* Old browsers */
+    background: -moz-linear-gradient(top, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #2f2f30
+}
+
+.titles, .row{
+    padding: 1%;
+    float: left;
+    width: 40%;
+    font-weight: bold;
+}
+
+.titles:first-child, .row:first-child{
+    width: 5%;
+}
+
+.titles:last-child, .row:last-child{
+    width: auto;
+}
+
+.empty{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border: 1px solid #2f2f30;
+    background-color: #e9e9e9;
+    text-align: center;
+    font-size: 1.33em;
+}
+
+.rows{
+    width: 100%;
+    display: block;
+    height: 4vh;
+    border: 1px solid #2f2f30;
+    background-color: #e9e9e9;
+}
+
+.titles_books, .row_books{
+    padding-top: 0.5%;
+    padding-left: 1%;
+    float: left;
+    width: 24%;
+    font-weight: bold;
+}
+
+
+.titles_books:first-child, 
+.titles_books:last-child, 
+.titles_books:nth-child(4), 
+.row_books:first-child,
+.row_books:last-child,
+.row_books:nth-child(4){
+    width: 5%;
+}
+
+.form{
+    padding: 1%;
+    width: 17%;
+    border: 1px solid #2f2f30;
+    background-color: #e9e9e9;
+}
+
+input, option, select{
+    height: 3vh;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
+    background: #f5f6f6; /* Old browsers */
+    background: -moz-linear-gradient(top, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #2f2f30;
+    margin-bottom: 5%;
+}
+
+label{
+    padding: 1%;
+    font-size: 1em;
+    font-weight: 700;
+    color: black;
+}
